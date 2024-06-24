@@ -37,6 +37,7 @@ main {
   padding: 2.5em;
   width: 350px;
   height: 85%;
+  font-family: var(--font-family-base);
 }
 
 .social__profilpic {
