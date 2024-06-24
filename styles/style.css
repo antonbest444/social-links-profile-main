@@ -20,7 +20,6 @@ main {
   color: var(--font-color);
   font-family: var(--font-family-base);
   height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,6 +57,7 @@ main {
 .social__text {
   margin-top: 1.2em;
   white-space: nowrap;
+  font-size: var(--font-size-base);
 }
 
 .social__buttonBlock {
