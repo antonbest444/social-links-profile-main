@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: hsl(75, 94%, 57%);
+  --background-color: hsl(0, 0%, 8%);
+  --font-color: hsl(0, 0%, 100%);
+  --button-color: hsl(0, 0%, 20%);
+  --container-color: hsl(0, 0%, 12%);
+  --font-size-base: 14px;
+  --font-family-base: "Inter, Arial";
+}
+
+html,
+main {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
